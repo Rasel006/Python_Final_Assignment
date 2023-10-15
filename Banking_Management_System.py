@@ -209,7 +209,7 @@ while True:
             elif op =="2":
                 UserEmail = input("Please Enter your account email: ")
                 UserPassward = input("Please enter your account password: ")
-                UserAccount =Admin.login(UserEmail,UserPassward)
+                UserAccount =Admin.Log_in(UserEmail,UserPassward)
             
                 if UserAccount:
                     print(f'{UserAccount.Name},Account successfully login!')
